@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import  <objc/runtime.h>
+#import "Children.h"
 
 @interface ViewController ()
 
@@ -30,8 +31,11 @@
     
     
     UIButton *btn = [UIButton new];
-    [self getBtnClassInfo:btn];
+//    [self getBtnClassInfo:btn];
     
+    
+    Children *child = [Children new];
+    [self getBtnClassInfo:child];
     
 //    [btn classInfo];
     

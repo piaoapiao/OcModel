@@ -13,6 +13,8 @@
 		46EDEBC121A2525D00524156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EDEBC021A2525D00524156 /* Assets.xcassets */; };
 		46EDEBC421A2525D00524156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EDEBC221A2525D00524156 /* LaunchScreen.storyboard */; };
 		46EDEBC721A2525D00524156 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EDEBC621A2525D00524156 /* main.m */; };
+		46EDEBCF21A25FCB00524156 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EDEBCE21A25FCB00524156 /* Parent.m */; };
+		46EDEBD221A25FE600524156 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EDEBD121A25FE600524156 /* Children.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		46EDEBC321A2525D00524156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46EDEBC521A2525D00524156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46EDEBC621A2525D00524156 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46EDEBCD21A25FCB00524156 /* Parent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		46EDEBCE21A25FCB00524156 /* Parent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		46EDEBD021A25FE600524156 /* Children.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		46EDEBD121A25FE600524156 /* Children.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				46EDEBB821A2525B00524156 /* AppDelegate.m */,
 				46EDEBBA21A2525B00524156 /* ViewController.h */,
 				46EDEBBB21A2525B00524156 /* ViewController.m */,
+				46EDEBCD21A25FCB00524156 /* Parent.h */,
+				46EDEBCE21A25FCB00524156 /* Parent.m */,
+				46EDEBD021A25FE600524156 /* Children.h */,
+				46EDEBD121A25FE600524156 /* Children.m */,
 				46EDEBBD21A2525B00524156 /* Main.storyboard */,
 				46EDEBC021A2525D00524156 /* Assets.xcassets */,
 				46EDEBC221A2525D00524156 /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46EDEBBC21A2525B00524156 /* ViewController.m in Sources */,
+				46EDEBCF21A25FCB00524156 /* Parent.m in Sources */,
 				46EDEBC721A2525D00524156 /* main.m in Sources */,
+				46EDEBD221A25FE600524156 /* Children.m in Sources */,
 				46EDEBB921A2525B00524156 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
